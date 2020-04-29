@@ -57,7 +57,13 @@ namespace UnoPrism
 		{
 			containerRegistry.RegisterForNavigation<Login>("Login");
 		}
+		//protected override void OnInitialized()
+		//{
+		//	base.OnInitialized();
+		//	var regionManager = Container.Resolve<IRegionManager>();
+		//	regionManager.RequestNavigate("ContentRegion", "Login");
 
+		//}
 		/// <summary>
 		/// Configures global logging
 		/// </summary>

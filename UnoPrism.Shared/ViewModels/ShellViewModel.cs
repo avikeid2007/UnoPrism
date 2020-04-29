@@ -12,6 +12,7 @@ namespace UnoPrism.ViewModels
             Title = "Main Page";
             _regionManager = regionManager;
             NavToLoginCommand = new DelegateCommand(NavToLoginCommandExecuted);
+            // regionManager.RequestNavigate("ContentRegion", "Login");
         }
 
         private void NavToLoginCommandExecuted()

@@ -8,7 +8,6 @@
     xmlns:prismMvvm="using:Prism.Mvvm"
     HorizontalAlignment="Stretch"
     VerticalAlignment="Stretch"
-    
     prismMvvm:ViewModelLocator.AutoWireViewModel="True"
     mc:Ignorable="d">
 
